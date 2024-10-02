@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Devbircoding/WebApplication.git/static/css/main.e3e93546.css",
+    "main.js": "/Devbircoding/WebApplication.git/static/js/main.797bf724.js",
+    "static/js/453.b81330f5.chunk.js": "/Devbircoding/WebApplication.git/static/js/453.b81330f5.chunk.js",
+    "index.html": "/Devbircoding/WebApplication.git/index.html",
+    "main.e3e93546.css.map": "/Devbircoding/WebApplication.git/static/css/main.e3e93546.css.map",
+    "main.797bf724.js.map": "/Devbircoding/WebApplication.git/static/js/main.797bf724.js.map",
+    "453.b81330f5.chunk.js.map": "/Devbircoding/WebApplication.git/static/js/453.b81330f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e93546.css",
+    "static/js/main.797bf724.js"
+  ]
+}
