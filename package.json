@@ -15,6 +15,7 @@
     "sass": "^1.77.8",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://github.com/Devbircoding/WebApplication.git",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,7 +42,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Devbircoding/WebApplication.git",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }

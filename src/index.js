@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Bulb from "./components/bulb/Bulb";
 import Counter from "./components/counter/Counter";
 import Details from "./components/details/Details";
+import WallpaperChanger from "./components/wallpaperchanger/Wallpaperchanger";
 
 const mockResponse = [
   {
@@ -21,6 +22,12 @@ const mockResponse = [
     title: "Counter",
     desc: "The Counter project is a project to make a counter that increments on itself by using the useState hook from react.",
     img: "/images/counter.webp",
+    link: "/counter",
+  },
+  {
+    title: "Wallpaper Changer",
+    desc: "A project to expand on the usage of the useState hook",
+    img: "https://i.redd.it/wedn8ifzabx31.jpg",
     link: "/counter",
   },
   // {
@@ -85,6 +92,10 @@ const routerConfig = createBrowserRouter([
     element: <Details />,
   },
   { path: "/calculator", element: <div>This is my Calculator Page</div> },
+  {
+    path: "/wallpaperchanger",
+    element: <WallpaperChanger />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

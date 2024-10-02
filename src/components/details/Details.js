@@ -6,7 +6,7 @@ function Details() {
     <center>
       <div className="main-details">
         <div className="detail-info">
-          <img src="./images/betterphoto.jpeg"></img>
+          <img src="../../../../images/betterphoto.jpeg"></img>
           <div className="all-info">
             <h2>Hi, I'm Devbir Bajaj,</h2> <h1>a Coding Enthusiast</h1>
             <p className="written-info">
