@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
-function BasicExample2(props) {
+function BasicExample(props) {
   return (
     <Card style={{ width: "18rem" }}>
       <Card.Body>
@@ -17,4 +17,4 @@ function BasicExample2(props) {
   );
 }
 
-export default BasicExample2;
+export default BasicExample;

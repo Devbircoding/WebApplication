@@ -10,6 +10,10 @@ import Bulb from "./components/bulb/Bulb";
 import Counter from "./components/counter/Counter";
 import Details from "./components/details/Details";
 import WallpaperChanger from "./components/wallpaperchanger/Wallpaperchanger";
+import Todolist from "./components/todolist/Todolist";
+import ApiIntegration from "./components/apiintegration/apiint.js";
+import Cart from "./components/apiintegration/cart.js";
+import Cartmain from "./components/apiintegration/cart2.js";
 
 const mockResponse = [
   {
@@ -29,6 +33,18 @@ const mockResponse = [
     desc: "A project to expand on the usage of the useState hook",
     img: "https://i.redd.it/wedn8ifzabx31.jpg",
     link: "/counter",
+  },
+  {
+    title: "To-Do List",
+    desc: "A project to expand on the usage of the useState hook, to solidify its concepts",
+    img: "https://imageio.forbes.com/specials-images/dam/imageserve/1092571024/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    link: "/todolist",
+  },
+  {
+    title: "API Integration",
+    desc: "A project to understand how to use APIs in a project",
+    img: "https://miro.medium.com/v2/resize:fit:1400/1*2GMSybCim32TTec9afVGxw.png",
+    link: "/apiintegration",
   },
   // {
   //   title: "Calculator",
@@ -95,6 +111,22 @@ const routerConfig = createBrowserRouter([
   {
     path: "/wallpaperchanger",
     element: <WallpaperChanger />,
+  },
+  {
+    path: "/todolist",
+    element: <Todolist />,
+  },
+  {
+    path: "/apiintegration",
+    element: <ApiIntegration />,
+  },
+  {
+    path: "/cart/:id",
+    element: <Cart />,
+  },
+  {
+    path: "/checkout",
+    element: <Cartmain />,
   },
 ]);
 
